@@ -1,0 +1,16 @@
+h1 {
+	color:  rgb(200, 0, 150);
+}
+hr {
+	height:  3px;
+	background-color:  rgb(200, 0, 150);
+}
+.highlight {
+	color:  rgb(200, 0, 10);
+}
+img {
+	width: 500px;
+}
+ol{
+	width: 400px;
+}
