@@ -1,19 +1,28 @@
 div {
   position: absolute;
   background-color: rgb(0,0,0);
-  transition: all 0.25s ease-in-out;
+  transition: all 0.45s ease-in-out;
 }
-.letter{
-  position: absolute;
-  background-color: black;
+
+div:hover .height{
+  height: 800px;
+
+
+}
+
+div:hover .width{
+  width: 1800px;
+
+}
+div:hover .opacity{
+  opacity: 0%;
+
 }
 
 .r {
   top: 50px;
   left: 80px;
 }
-
-
 
 .r1{
   width: 125px;
@@ -24,7 +33,6 @@ div {
   background-color: rgb(255,255,255)
   
 }
-
 
 .r2{
   width: 20px;
@@ -45,6 +53,7 @@ div {
 .r:hover .hoverable{
   background-color: rgb(20, 20, 200);
   border-color: rgb(20, 20, 200);
+
 
 }
 .r:hover .whitespace{
@@ -107,6 +116,13 @@ div {
   left: 20px;
   background-color: rgb(255,255,255);
 }
+.a7{
+  width: 0px;
+  height: 20px;
+  position: absolute;
+  
+  left: 75px;
+}
 
 .a:hover .hoverable{
   background-color: rgb(20, 20, 200);
@@ -152,6 +168,13 @@ div {
   top: 85px;
   left: 20px;
   background-color: rgb(255,255,255);
+}
+.n5{
+  width: 0px;
+  height: 20px;
+  position: absolute;
+  
+  left: 75px;
 }
 
 .n:hover .hoverable{
@@ -201,7 +224,7 @@ div {
   background-color: rgb(255,255,255);
 }
 .g5{
-  width: 225px;
+  width: 150px;
   height: 115px;
   position: absolute;
   top: 85px;
@@ -272,7 +295,7 @@ div {
   background-color: rgb(255,255,255);
 }
 .e5{
-  width: 225px;
+  width: 150px;
   height: 115px;
   position: absolute;
   top: 85px;
@@ -390,6 +413,7 @@ h2{
 background-color: rgb(255,255,255);
 font-family: helvetica;
 }
+
 p {
   width: 330px;
   position: absolute;
