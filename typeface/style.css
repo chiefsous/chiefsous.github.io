@@ -14,10 +14,7 @@ div:hover .width{
   width: 1800px;
 
 }
-div:hover .opacity{
-  opacity: 0%;
 
-}
 
 .r {
   top: 50px;
@@ -36,18 +33,40 @@ div:hover .opacity{
 
 .r2{
   width: 20px;
-  height: 200px;
+  height: 190px;
   position: absolute;
   top: 75px;
 }
 
 .r3{
-  width: 25px;
-  height: 150px;
+  width: 20px;
+  height: 190px;
   position: absolute;
-  top: 125px;
-  left: 80px;
-  transform: skew(45deg);
+  top: 105px;
+  left: 70px;
+  transform: rotate(-45deg);
+}
+
+.r4{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 255px;
+ 
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgb(0,0,0);
+}
+
+.r5{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 255px;
+  left: 135px;
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgb(0,0,0);
 }
 
 .r:hover .hoverable{
@@ -78,13 +97,13 @@ div:hover .opacity{
 
 .a2{
   width: 20px;
-  height: 200px;
+  height: 190px;
   position: absolute;
   top: 75px;
 }
 .a3{
   width: 20px;
-  height: 200px;
+  height: 190px;
   position: absolute;
   top: 75px;
   left: 145px;
@@ -124,6 +143,28 @@ div:hover .opacity{
   left: 75px;
 }
 
+.a8{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 255px;
+  left: 145px;
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgb(0,0,0);
+}
+.a9{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 255px;
+ 
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgb(0,0,0);
+}
+
+
 .a:hover .hoverable{
   background-color: rgb(20, 20, 200);
   border-color: rgb(20, 20, 200);
@@ -150,13 +191,14 @@ div:hover .opacity{
 
 .n2{
   width: 20px;
-  height: 200px;
+  height: 190px;
   position: absolute;
   top: 75px;
 }
+
 .n3{
   width: 20px;
-  height: 200px;
+  height: 190px;
   position: absolute;
   top: 75px;
   left: 145px;
@@ -175,6 +217,28 @@ div:hover .opacity{
   position: absolute;
   
   left: 75px;
+}
+
+.n6{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 255px;
+  left: 145px;
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgb(0,0,0);
+}
+
+.n7{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 255px;
+ 
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgb(0,0,0);
 }
 
 .n:hover .hoverable{
@@ -242,6 +306,28 @@ div:hover .opacity{
 
 .g7{
   width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 75px;
+  left: 145px;
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgb(0,0,0);
+}
+
+.g8{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 125px;
+  left: 55px;
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgb(0,0,0);
+}
+
+.g9{
+  width: 20px;
   height: 80px;
   position: absolute;
   top: 125px;
@@ -304,6 +390,39 @@ div:hover .opacity{
 }
 
 .e6{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 75px;
+  left: 145px;
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgb(0,0,0);
+}
+
+.e7{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 125px;
+  left: 90px;
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgb(0,0,0);
+}
+
+.e8{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 190px;
+  left: 145px;
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgb(0,0,0);
+}
+
+.e9{
   width: 100px;
   height: 20px;
   position: absolute;
@@ -394,6 +513,34 @@ div:hover .opacity{
   top: 68px;
   left: 72px;
   transform: rotate(-69deg);
+}
+.s9{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 75px;
+  left: 145px;
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgb(0,0,0);
+}
+.s10{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 190px;
+  left: 0px;
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgb(0,0,0);
+}
+
+.s11{
+  width: 20px;
+  height: 0px;
+  position: absolute;
+  top: 75px;
+  left: 145px;
 }
 
 .s:hover .hoverable{
