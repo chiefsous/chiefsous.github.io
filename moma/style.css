@@ -1,0 +1,70 @@
+body {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100vw;
+	height: 100vh;
+	background-image: url(background.png);
+	background-size: cover;
+	background-position: unset;
+
+}
+
+h1 {
+	position: absolute;
+	top: 50px;
+	left: 3vw;
+	font-size: 150px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+
+
+h2 {
+	position: absolute;
+	top: 75px;
+	left: 3.5vw;
+	font-size: 50px;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+.tickets {
+	position: absolute;
+	top: 285px;
+	left: 3.5vw;
+	font-size: 25px;
+	font-weight: 900;
+	line-height: 35px;
+
+}
+
+p {
+	width: 3600px;
+	font-weight: 500;
+	position: absolute;
+	top: 380px;
+	left: 3vw;
+	font-size: 5vh;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+
+
+@media (max-width: 390px) {
+	h1 {
+		position: absolute;
+		top: 75px;
+		left: 3vw;
+		font-size: 115px;
+	}
+	h2{
+		position: absolute;
+	top: 100px;
+	left: 3.5vw;
+	font-size: 35px;
+	}
+}
+
