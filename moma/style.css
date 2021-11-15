@@ -1,16 +1,29 @@
-body {
+.myimg {
 	position: absolute;
 	top: 0;
 	left: 0;
-
-	width: 100vw;
-	height: 100vh;
-	background-image: url(background.png);
+	width: 120%;
+	height: 120%;
+	background-image: url(background2.png);
 	background-size: cover;
-	background-position: unset;
+	background-position: center;
+	background-repeat: no-repeat;
 
 }
 
+.myimg2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(myimg2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0;
+
+}
 h1 {
 	position: absolute;
 	top: 50px;
@@ -32,39 +45,94 @@ h2 {
 
 .tickets {
 	position: absolute;
-	top: 285px;
-	left: 3.5vw;
+	top: 140px;
+	left: 600px;
 	font-size: 25px;
-	font-weight: 900;
+	font-weight: 500;
 	line-height: 35px;
+	white-space: nowrap;
 
 }
 
 p {
-	width: 3600px;
+	width: 100vw;
 	font-weight: 500;
 	position: absolute;
-	top: 380px;
+	top: 395px;
 	left: 3vw;
-	font-size: 5vh;
+	font-size: 2.07vw;
 	font-family: 'Lato', sans-serif;
 	color: white;
 }
 
-
+.phone {
+	opacity: 0;	
+}
 
 @media (max-width: 390px) {
+.myimg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 390px;
+	height: 844px;
+	background-image: url(background2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+.myimg2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 400px;
+	height: 900px;
+	background-image: url(myimg2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 100;
+
+}
+
+
 	h1 {
 		position: absolute;
-		top: 75px;
+		top: 40px;
 		left: 3vw;
-		font-size: 115px;
+		font-size: 22vw;
 	}
 	h2{
 		position: absolute;
-	top: 100px;
-	left: 3.5vw;
-	font-size: 35px;
+		top: 50px;
+		left: 3.5vw;
+		font-size: 8vw;
 	}
+
+	.tickets {
+		position: absolute;
+		width: 844px;
+		left: 3.5vw;
+		top: 290px;
+
+
+	}
+	.laptop {
+		opacity: 0;
+		width: 0px;
+		height: 0px;
+	}
+	.phone {
+		position: absolute;
+		left: 3.5vw;
+		top: 430px;
+		opacity: 100;
+		font-size: 10vw;
+	}
+
+
 }
 
+	
