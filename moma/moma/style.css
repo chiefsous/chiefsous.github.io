@@ -1,0 +1,140 @@
+.myimg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 115%;
+	height: 120%;
+	background-image: url(background2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.myimg2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(myimg2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0;
+
+}
+h1 {
+	position: absolute;
+	top: 50px;
+	left: 3vw;
+	font-size: 150px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+
+
+h2 {
+	position: absolute;
+	top: 75px;
+	left: 3.5vw;
+	font-size: 50px;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+.tickets {
+	position: absolute;
+	top: 140px;
+	left: 600px;
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 35px;
+	white-space: nowrap;
+
+}
+
+p {
+	width: 110vw;
+	font-weight: 500;
+	position: absolute;
+	top: 395px;
+	left: 3vw;
+	font-size: 2.07vw;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+.phone {
+	opacity: 0;	
+}
+
+@media (max-width: 390px) {
+.myimg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 390px;
+	height: 844px;
+	background-image: url(background2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+.myimg2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 390px;
+	height: 844px;
+	background-image: url(myimg2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 100;
+
+}
+
+
+	h1 {
+		position: absolute;
+		top: 40px;
+		left: 3vw;
+		font-size: 31vw;
+	}
+	h2{
+		position: absolute;
+		top: 50px;
+		left: 3.5vw;
+		font-size: 11.5vw;
+	}
+
+	.tickets {
+		position: absolute;
+		width: 844px;
+		left: 3.5vw;
+		top: 290px;
+		font-size: 7vw;
+
+
+	}
+	.laptop {
+		opacity: 0;
+		width: 0px;
+		height: 0px;
+		font-size: 0px;
+	}
+	.phone {
+		position: absolute;
+		left: 3.5vw;
+		top: 430px;
+		opacity: 100;
+		font-size: 14vw;
+	}
+
+
+}
+
+	
