@@ -1,0 +1,417 @@
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(background.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100px;
+	background-color: white;	
+
+}
+.flag {
+	
+	margin-top: 20px;
+	margin-left: 40px;
+}
+
+.headertype{
+	position: absolute;
+	top: 22px;
+	left: 200px;
+
+	font-family: abolition, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	color: rgb(20, 60, 150);
+	font-size: 50px;
+
+}
+
+.home{
+	position: absolute;
+	top: 43px;
+	left: 60vw;
+
+	font-family: abolition, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	color: rgb(20, 60, 150);
+	font-size: 20px;
+
+}
+
+.super{
+	position: absolute;
+	top: 43px;
+	left: 65vw;
+
+	font-family: abolition, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	color: rgb(20, 60, 150);
+	font-size: 20px;
+
+}
+
+.sports{
+	position: absolute;
+	top: 43px;
+	left: 70vw;
+
+	font-family: abolition, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	color: rgb(20, 60, 150);
+	font-size: 20px;
+
+}
+
+.muscle{
+	position: absolute;
+	top: 43px;
+	left: 76vw;
+
+	font-family: abolition, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	color: rgb(20, 60, 150);
+	font-size: 20px;
+
+}
+
+.muscle{
+	position: absolute;
+	top: 43px;
+	left: 76vw;
+
+	font-family: abolition, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	color: rgb(20, 60, 150);
+	font-size: 20px;
+
+}
+
+.pickups{
+	position: absolute;
+	top: 43px;
+	left: 82vw;
+
+	font-family: abolition, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	color: rgb(20, 60, 150);
+	font-size: 20px;
+
+}
+
+.box1 {
+	position: absolute;
+	top: 120px;
+	width: 45vw;
+	height: 550px;
+	background-color: white;
+	
+	margin-left: 10px;
+
+	border-radius: 2%;
+}
+
+.pa {
+font-family: 'Lato', sans-serif;
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 20px;
+margin-bottom: 40px;
+font-size: 20px;
+line-height: 27px;
+color: rgb(20, 60, 150);
+}
+
+.sennajpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.r8jpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.f599xxjpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.gtrjpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.huayrajpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.aventadorjpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.p911jpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.corvettejpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.rtrjpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.skylinejpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+.supersportjpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+.dartjpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+.hellcatjpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+.rtjpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+.vicjpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+.viperjpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.f365jpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.m570jpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.caymanjpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.m3jpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.rx7jpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.rx8jpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.daytonajpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.gt40jpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.m6x6jpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+
+.broncojpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+.raptorjpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+.rangerjpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+.f100jpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+.jimmyjpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+.powerwagonjpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
+.prerunnerjpg img{
+	top: 120px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 10px;
+	width: 50vw;
+	margin-left: 47vw;
+}
