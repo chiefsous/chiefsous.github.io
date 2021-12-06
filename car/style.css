@@ -20,13 +20,14 @@
 	background-color: white;	
 
 }
+
 .flag {
-	
-	margin-top: 20px;
-	margin-left: 40px;
+	position: absolute;	
+	top: 20px;
+	left: 40px;
 }
 
-.headertype{
+.headertype {
 	position: absolute;
 	top: 22px;
 	left: 200px;
@@ -39,7 +40,7 @@
 
 }
 
-.home{
+.home {
 	position: absolute;
 	top: 43px;
 	left: 60vw;
@@ -91,18 +92,7 @@
 
 }
 
-.muscle{
-	position: absolute;
-	top: 43px;
-	left: 76vw;
 
-	font-family: abolition, sans-serif;
-	font-weight: 400;
-	font-style: italic;
-	color: rgb(20, 60, 150);
-	font-size: 20px;
-
-}
 
 .pickups{
 	position: absolute;
@@ -130,15 +120,63 @@
 }
 
 .pa {
-font-family: 'Lato', sans-serif;
-margin-left: 40px;
-margin-right: 40px;
-margin-top: 20px;
-margin-bottom: 40px;
-font-size: 20px;
-line-height: 27px;
-color: rgb(20, 60, 150);
+	font-family: 'Lato', sans-serif;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 20px;
+	line-height: 27px;
+	color: rgb(20, 60, 150);
 }
+
+
+
+/*---------------------------------*/
+
+
+.su {
+	top: 100px;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 15px;
+	width: 235px;
+	height: 185px;
+	background-color: white;
+	border-radius: 10px;
+	display: inline-block;
+	
+}
+
+.su1{
+
+	text-align: center;
+	top: 5px;
+	left: 0px;
+	position: relative;
+	font-family: abolition, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	color: rgb(20, 60, 150);
+	font-size: 30px;
+	
+}
+
+.su1 img{
+	top: 10px;
+	width: 225px;
+	position: relative;
+	border-radius: 10px;
+}
+
+
+
+
+
+/*---------------------------------*/
+
+
+
 
 .sennajpg img{
 	top: 120px;
