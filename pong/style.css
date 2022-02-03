@@ -1,0 +1,108 @@
+.ball{
+	position: absolute;
+	top:  400px;
+	left: 200px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: rgb(0, 0, 0);
+	animation-name: ballAnim;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	
+}
+
+.paddleleft{
+	position: absolute;
+	top:  10px;
+	left: 10px;
+	width: 15px;
+	height: 95px;
+	
+	background-color: rgb(0, 0, 0);
+	animation-name: paddleleftAnim;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+.paddleright{
+	position: absolute;
+	top:  10px;
+	left: 1410px;
+	width: 15px;
+	height: 95px;
+	
+	background-color: rgb(0, 0, 0);
+	animation-name: paddlerightAnim;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+
+@keyframes paddleleftAnim {
+	0%{
+		top: 600px;
+	}
+	50%{
+		top: 10px;
+
+	}
+	100%{
+		top: 600px;
+
+	}
+}
+
+@keyframes paddlerightAnim {
+	0%{
+		top: 10px;
+	}
+	50%{
+		top: 600px;
+
+	}
+	100%{
+		top: 10px;
+
+	}
+}
+
+@keyframes ballAnim {
+	0%{
+		top: 10px;
+		left: 705px;
+
+		background-color: rgb(200, 0, 0);
+	}
+	25%{
+		top: 300px;
+		left: 20px;
+		background-color: rgb(0, 200, 0);
+		
+	}
+
+	50%{
+		top: 600px;
+		left: 705px;
+		
+		background-color: rgb(0, 0, 200);
+	}
+	75%{
+		top: 300px;
+		left: 1400px;
+		background-color: rgb(200, 0, 200);
+		
+	}
+	100%{
+		top: 10px;
+		left: 705px;
+		background-color: rgb(0, 200, 200);
+		
+
+	}
+}
+
+
