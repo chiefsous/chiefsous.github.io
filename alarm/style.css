@@ -1,3 +1,24 @@
+body.alarm{
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;  
+}
+
+.boxmid.alarm{
+  animation-name: blink2;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;  
+}
+
+.box2.alarm{
+  animation-name: blink2;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;  
+}
+
 .vertical-s{
   position: absolute;
   width: 2px;
@@ -6,7 +27,7 @@
   top: 0px;
   background-color: black;
   animation-name: vertical-s;
-  /*animation-duration: 30s;*/
+
   animation-duration: 7.5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 3;  
@@ -22,7 +43,7 @@
   background-color: black;
 
   animation-name: horizontal-s;
-  /*animation-duration: 30s;*/
+
   animation-duration: 7.5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 3;  
@@ -37,7 +58,7 @@
   top: 0px;
   background-color: black;
   animation-name: vertical-m;
-  /*animation-duration: 30s;*/
+
   animation-duration: 22.5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;  
@@ -53,7 +74,7 @@
   background-color: black;
 
   animation-name: horizontal-m;
-  /*animation-duration: 30s;*/
+
   animation-duration: 22.5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;  
@@ -64,9 +85,24 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  left: 590px;
-  top: 340px;
   background-color: black;
+  animation-name: boxmid;
+  animation-duration: 22.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;  
+  animation-fill-mode: forwards;
+  }
+
+.box2{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  animation-name: box2;
+  animation-duration: 7.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 3;  
+  animation-fill-mode: forwards;
   }
 
 @keyframes vertical-s {
@@ -190,9 +226,6 @@
 }
 
 
-
-
-
 @keyframes vertical-m {
   0% {
 
@@ -308,6 +341,177 @@
 
   top: 350px;
 
+  }
+}
+
+@keyframes boxmid {
+  0% {
+  left: 600px;
+  top: 520px;
+
+  }
+  5% {
+
+left: 320px;
+top: 450px;
+
+  }
+  15% {
+
+left: 700px;
+top: 630px;
+
+  }
+  25% {
+
+left: 475px;
+top: 650px;
+  }
+  35% {
+
+left: 1000px;
+top: 210px;
+  }
+  45% {
+
+left: 200px;
+top: 370px;
+  }
+
+  55% {
+left: 350px;
+top: 490px;
+
+  }
+  65% {
+
+left: 300px;
+top: 330px;
+
+  }
+  75% {
+
+left: 700px;
+top: 200px;
+
+  }
+  85% {
+  left: 850px;
+  top: 650px;
+
+  }
+
+  95% {
+
+  left: 590px;
+  top: 340px;
+  }
+
+  100% {
+
+  left: 590px;
+  top: 340px;
+  }
+
+}
+
+@keyframes box2 {
+  0% {
+left: 590px;
+top: 340px;
+
+  }
+  5% {
+
+left: 700px;
+top: 300px;
+
+  }
+  15% {
+
+left: 300px;
+top: 200px;
+
+  }
+  25% {
+
+left: 1150px;
+top: 650px;
+
+  }
+  35% {
+
+left: 300px;
+top: 200px;
+  }
+  45% {
+
+left: 600px;
+top: 350px;
+  }
+
+  55% {
+left: 800px;
+top: 120px;
+
+  }
+  65% {
+
+left: 600px;
+top: 310px;
+
+  }
+  75% {
+
+left: 700px;
+top: 200px;
+
+  }
+  85% {
+left: 450px;
+top: 650px;
+
+  }
+
+  95% {
+
+left: 590px;
+top: 340px;
+  }
+
+  100% {
+
+left: 590px;
+top: 340px;
+  }
+}
+
+
+
+@keyframes blink {
+  0% {
+
+  background-color: rgb(255, 0, 0);
+
+  }
+  100%{
+    background-color: rgb(255, 150, 150);
+  }
+
+}
+
+@keyframes blink2 {
+  0% {
+
+left: 590px;
+top: 340px;
+  background-color: rgb(0, 0, 0);
+
+  }
+  100%{
+    left: 590px;
+top: 340px;
+    background-color: rgb(70, 70, 70);
   }
 
 }
