@@ -19,25 +19,28 @@ body {
 
 .collectable {
   position: absolute;
-  width: 200px;
-  height: 101px;
+  width: 112px;
+  height: 59px;
   background-image: url("./img/logs.png");
   
 }
 
 .collectable-0{
+
   left: 200px;
   bottom: 80px;
 }
 
 .collectable-1{
-  left: 120px;
-  bottom: 50px;
+ 
+  left: 70px;
+  bottom: 170px;
 }
 
 .collectable-2{
+
   left: 800px;
-  bottom: 40px;
+  bottom: 80px;
 }
 
 .instructions {
