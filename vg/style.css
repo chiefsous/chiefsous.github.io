@@ -32,15 +32,21 @@ body {
 }
 
 .collectable-1{
- 
-  left: 70px;
-  bottom: 170px;
+  transform: scale(.35);
+  left: 40px;
+  bottom: 330px;
 }
 
 .collectable-2{
-
+  transform: scale(.5);
   left: 800px;
-  bottom: 80px;
+  bottom: 280px;
+}
+
+.collectable-3{
+  transform: scale(.35);
+  left: 440px;
+  bottom: 370px;
 }
 
 .instructions {
@@ -67,17 +73,16 @@ body {
 
 .score {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  border-radius: 50%;
-  background-color: rgb(243, 128, 25);
+  top: 20px;
+  right: 20px;
+  height: 28px;
+  width: 35px;
+  background-image: url("./img/rock.png");
+
   color: white;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -94,6 +99,7 @@ body {
 }
 
 .hero {
+  z-index: 10 !important;
   position: absolute;
   bottom: 80px;
   left: 400px;
