@@ -17,6 +17,17 @@ body {
   overflow: hidden;
 }
 
+.snow{
+  z-index: 20;
+  background-image: url("./img/snow.gif");
+  position: absolute;
+  top: 0; left: -500px; right: 0; bottom: 0;
+  margin: auto;
+  width: 2048px;
+  height: 1496px;
+  transform: scale(.5);
+}
+
 .collectable {
   position: absolute;
   width: 112px;
@@ -32,8 +43,8 @@ body {
 }
 
 .collectable-1{
-  transform: scale(.35);
-  left: 40px;
+  transform: scale(.35) rotate(-15deg);
+  left: 35px;
   bottom: 330px;
 }
 
@@ -44,9 +55,10 @@ body {
 }
 
 .collectable-3{
-  transform: scale(.35);
-  left: 440px;
-  bottom: 370px;
+  transform: scale(.35) rotate(-15deg);
+
+  left: 470px;
+  bottom: 460px;
 }
 
 .instructions {
@@ -99,7 +111,7 @@ body {
 }
 
 .hero {
-  z-index: 10 !important;
+  z-index: 10;
   position: absolute;
   bottom: 80px;
   left: 400px;
